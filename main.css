@@ -1,0 +1,89 @@
+body{
+    font-family:'Roboto',sans-serif;
+}
+
+header img{
+    width: 90px;
+    height: 90px;
+}
+.navbar{
+    background-color: #111010;
+}
+
+.nav .nav-link.active{
+    background-color: rgb(131, 14, 14);
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,.nav-cardapio.nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+     background-color: #fff;
+    
+}
+
+.section-title{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.section-title2{
+    font-family: "Shadows Into Light", cursive;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+}
+
+.text-colored{
+    color: rgb(131, 14, 14);
+}
+
+.redes-sociais{
+    background-color:rgb(131, 14, 14) ;
+    color: #fff;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+ }
+ 
+ .social-links a{
+     text-decoration: none;
+ }
+
+ .sobre, #cardapio{
+    background-color: #f5dcda;
+}
+
+.nav-cardapio .nav-link.active,#fale-conosco button{
+    background-color:rgb(131, 14, 14) ;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+   color: rgb(131, 14, 14) ;
+}
+
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+
+
+
+    .tab-content img{
+        max-width: 400px;
+       margin-left: 50px;
+    }
+
+    .tab-content h5, .tab-content p{
+        text-align: center;
+    }
+}
