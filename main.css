@@ -77,12 +77,4 @@ header img{
     }
 
 
-
-    .tab-content img{
-        max-width: 400px;
-    }
-
-    .tab-content h5, .tab-content p{
-        text-align: center;
-    }
 }
